@@ -28,7 +28,7 @@ var limit = scriptTag.getAttribute("limit");
 var xhr = new XMLHttpRequest();
 
 if(limit == null) {
-    limit = 5;
+    limit = 3;
 } 
 
 if(sort == null) {
